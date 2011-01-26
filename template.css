@@ -3,14 +3,15 @@ root {
 }
 
 body {
-    background: url('images/fond-repeat.png') repeat-x rgb(15,12,5);
-    padding: 0;
-    margin: 0;
+  background: url('images/fond-repeat.png') repeat-x rgb(15,12,5);
+  padding: 0;
+  margin: 0;
 }
 
 #header {
-    height: 135px;
+  height: 135px;
 }
+
 /* 
 #left {
     float: left;
