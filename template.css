@@ -12,6 +12,12 @@ body {
   height: 135px;
 }
 
+#content {
+  width: 1217px;
+  height: 686px;
+  background: url('images/fond.png') no-repeat;
+}
+
 /* 
 #left {
     float: left;
