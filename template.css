@@ -25,6 +25,9 @@
 #contact {
   display: inline;
   float: right;
+  background: url(images/header-droit.png) no-repeat;
+  width: 562px;
+  height: 135px;
 }
 
 #contact a {
@@ -32,6 +35,8 @@
   text-indent: -9999em;
   width: 116px;
   height: 12px;
+  margin-left: 432px;
+  margin-top: 32px;
   background: url(images/contact.png) no-repeat;
 }
 
