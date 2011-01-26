@@ -1,138 +1,38 @@
-root { 
-    display: block;
-}
-
-body {
-  background: url('images/fond-repeat.png') repeat-x rgb(15,12,5);
-  padding: 0;
-  margin: 0;
+#adrien {
+  background: url(images/fond-repeat.png) repeat-x rgb(15,12,5);
 }
 
 #header {
   height: 135px;
 }
 
+#logo a {
+/* forces full link size */
+	display: block;
+/* this hides the text */
+	text-indent: -9999em;
+	margin-top: 0;
+	margin-left: 0;
+  width: 655px;
+  height: 135px;
+  background: url(images/logo.png) no-repeat left top;
+}
+
+#contact a {
+  display: block;
+  text-indent: -9999em;
+  float: right;
+  width: 655px;
+  height: 135px;
+  background: url(images/contact.png) no-repeat right top;
+}
+
+#contact a:hover {
+  background: url(images/contact-hover.png) no-repeat right top;
+}
+
 #content {
   width: 1217px;
   height: 686px;
-  background: url('images/fond.png') no-repeat;
+  background: url(images/fond.png) no-repeat;
 }
-
-/* 
-#left {
-    float: left;
-    width: 151px;
-    height: 821px;
-    background: url('../img/fond-gauche.png') no-repeat;
-}
-
-#main {
-    width: 1217px;
-    height: 686px;
-    margin-left: 151px;
-    margin-right: auto;
-    background: url('../img/fond.png') no-repeat;
-}
-
-#header {
-    height: 135px;
-}
-
-
-#logo {
-    float: left;
-    width: 655px;
-    height: 135px;
-    background: url('../img/header-logo.png') no-repeat;
-}
-
-#menu {
-    float: left;
-    margin-left: -282px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    display: inline
-}
-
-li a {
-    float: left;
-}
-
-#perso {
-    margin: 13px 0 0 0;
-}
-
-#perso-titre a {
-    width: 33px;
-    height: 124px;
-    background: url('../img/btn-perso-titre.png') no-repeat;
-}
-
-#rough a {
-    width: 45px;
-    height: 127px;
-    background: url('../img/btn-perso-rough.png') no-repeat;
-}
-
-#illustrations a {
-    width: 45px;
-    height: 144px;
-    background: url('../img/btn-perso-illustration.png') no-repeat;
-}
-
-#divers a {
-    width: 42px;
-    height: 136px;
-    background: url('../img/btn-perso-divers.png') no-repeat;
-}
-
-#pro-titre a {
-    width: 36px;
-    height: 84px;
-    margin-left: 18px;
-    background: url('../img/btn-pro.png') no-repeat;
-}
-
-#pro-anime a {
-    width: 51px;
-    height: 127px;
-    background: url('../img/btn-pro-anime.png') no-repeat;
-}
-
-#pro-BG-couleur a {
-    width: 24px;
-    height: 127px;
-    background: url('../img/btn-pro-BG-couleur.png') no-repeat;
-}
-
-#pro-BG-nb a {
-    width: 25px;
-    height: 127px;
-    background: url('../img/btn-pro-BG-nb.png') no-repeat;
-}
-
-#pro-storyboard a {
-    width: 25px;
-    height: 127px;
-    background: url('../img/btn-pro-storyboard.png') no-repeat;
-}
-
-#pro-divers a {
-    width: 46px;
-    height: 127px;
-    background: url('../img/btn-pro-divers.png') no-repeat;
-}
-
-#fond-droit {
-    width: 562px;
-    height: 135px;
-    background: url('../img/fond-droit.png') no-repeat;
-    float: left;
-}
- */
