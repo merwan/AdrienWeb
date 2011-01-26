@@ -4,27 +4,35 @@
 
 #header {
   height: 135px;
+  display: block;
+}
+
+#logo {
+  display: inline;
+  float: left
 }
 
 #logo a {
 /* forces full link size */
-	display: block;
+  display: block;
 /* this hides the text */
-	text-indent: -9999em;
-	margin-top: 0;
-	margin-left: 0;
+  text-indent: -9999em;
   width: 655px;
   height: 135px;
-  background: url(images/logo.png) no-repeat left top;
+  background: url(images/logo.png) no-repeat;
+}
+
+#contact {
+  display: inline;
+  float: right;
 }
 
 #contact a {
   display: block;
   text-indent: -9999em;
-  float: right;
-  width: 655px;
-  height: 135px;
-  background: url(images/contact.png) no-repeat right top;
+  width: 116px;
+  height: 12px;
+  background: url(images/contact.png) no-repeat;
 }
 
 #contact a:hover {
