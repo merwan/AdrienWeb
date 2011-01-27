@@ -39,6 +39,10 @@
   text-indent: -9999em;
 }
 
+#menu ul {
+  list-style-type: none;
+}
+
 #contact {
   display: inline;
   float: right;
