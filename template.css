@@ -26,7 +26,11 @@
   display: inline;
   float: left;
   margin-left: -298px;
-  margin-top: 11px;
+}
+
+#menu-perso {
+  margin-top: 12px;
+  float: left;
 }
 
 #menu a {
@@ -36,25 +40,25 @@
   text-indent: -9999em;
 }
 
-#menu .perso {
+#menu-perso .perso {
   width: 33px;
   height: 124px;
   background: url(images/perso.png) no-repeat;
 }
 
-#menu .rough {
+#menu-perso .rough {
   width: 45px;
   height: 127px;
   background: url(images/btn-perso-rough.png ) no-repeat;
 }
 
-#menu .divers {
+#menu-perso .divers {
   width: 42px;
   height: 136px;
   background: url(images/btn-perso-divers.png ) no-repeat;
 }
 
-#menu .illustration {
+#menu-perso .illustration {
   width: 49px;
   height: 127px;
   background: url(images/btn-perso-illustration.png ) no-repeat;
@@ -66,6 +70,18 @@
 
 #menu li {
   float: left;
+}
+
+#menu-pro {
+  float: left;
+  margin-top: 12px;
+  margin-left: 17px;
+}
+
+#menu-pro .da {
+  width: 51px;
+  height: 127px;
+  background: url(images/btn-pro-da.png ) no-repeat;
 }
 
 #contact {
