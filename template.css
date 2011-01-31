@@ -102,6 +102,18 @@
   background: url(images/btn-pro-da-nb.png ) no-repeat;
 }
 
+#menu-pro .storyboard {
+  width: 25px;
+  height: 127px;
+  background: url(images/btn-pro-storyboard.png ) no-repeat;
+}
+
+#menu-pro .divers-pro {
+  width: 46px;
+  height: 127px;
+  background: url(images/btn-pro-divers.png ) no-repeat;
+}
+
 #contact {
   display: inline;
   float: right;
