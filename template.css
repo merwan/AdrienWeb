@@ -27,9 +27,6 @@
   float: left;
   margin-left: -280px;
   margin-top: 11px;
-  width: 33px;
-  height: 124px;
-  background: url(images/perso.png) no-repeat;
 }
 
 #menu a {
@@ -37,6 +34,16 @@
   display: block;
 /* this hides the text */
   text-indent: -9999em;
+}
+
+#menu .perso {
+  width: 33px;
+  height: 124px;
+  background: url(images/perso.png) no-repeat;
+}
+
+#menu .rough {
+  background: url(images/btn-perso-rough.png ) no-repeat;
 }
 
 #menu ul {
