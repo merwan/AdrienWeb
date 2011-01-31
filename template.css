@@ -96,6 +96,12 @@
   background: url(images/btn-pro-da-couleur.png ) no-repeat;
 }
 
+#menu-pro .bg-nb {
+  width: 25px;
+  height: 127px;
+  background: url(images/btn-pro-da-nb.png ) no-repeat;
+}
+
 #contact {
   display: inline;
   float: right;
