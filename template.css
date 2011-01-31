@@ -54,6 +54,12 @@
   background: url(images/btn-perso-divers.png ) no-repeat;
 }
 
+#menu .illustration {
+  width: 49px;
+  height: 127px;
+  background: url(images/btn-perso-illustration.png ) no-repeat;
+}
+
 #menu ul {
   list-style-type: none;
 }
